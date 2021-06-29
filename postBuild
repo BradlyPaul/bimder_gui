@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-#cp -r binder/Desktop ${HOME}/Desktop
+cp -r Desktop ${HOME}/Desktop
 
 # Apply our Xfce settings
 mkdir -p ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml
-cp binder/xsettings.xml ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/
-cp binder/xfce4-panel.xml ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp xsettings.xml ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp xfce4-panel.xml ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/
