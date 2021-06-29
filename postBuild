@@ -29,6 +29,7 @@ mv $HOME/tools/gdu_linux_amd64 $HOME/tools/gdu
 
 # rust
 curl https://sh.rustup.rs -sSf | sh -s -- -y
+. "$HOME/.cargo/env"
 rustup toolchain install nightly
 rustup default nightly-x86_64-unknown-linux-gnu
 
