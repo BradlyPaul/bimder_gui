@@ -23,6 +23,7 @@ deluge-console
 deluged
 deluge-web
 dosbox
+doxygen
 elinks
 emacs
 ffmpeg
@@ -54,6 +55,8 @@ libboost-serialization-dev
 libcairo2-dev
 libcanberra-gtk3-module
 libcanberra-gtk-module
+libflac-dev
+libfreetype6-dev
 libfuse-dev
 libgles2
 libgnome2-dev
@@ -62,13 +65,18 @@ libgtk2.0-dev
 liblua5.1-dev
 libncurses5-dev
 libncursesw5
+libogg-dev
+libopenal-dev
 libpci3
 libperl-dev
 librlog-dev
 librsvg2-bin
 libssl-dev
+libudev-dev
+libvorbis-dev
 libx11-dev
 libxpm-dev
+libxrandr-dev
 libxss1
 libxt-dev
 lshw
